@@ -48,38 +48,15 @@ const Home = () => {
                             </div>
                         </CustomLink ></li>
                         <li className='hover:bg-purple-100 rounded-lg'><CustomLink to='/document'>
+                            <a href="https://docs.solminter.com/">
                             <div className='flex justify-center items-center '>
                                 <img src={document} alt="" srcset="" />
                                 <p className='ml-2'>Documentation</p>
-                            </div>
+                                </div>
+                            </a>
                         </CustomLink ></li>
-
-                        {/* <li >
-                            <div className='hover:bg-purple-100 hover:text-black h-12 mb-1'>
-                                <img src={token} alt="" srcset="" />
-                                <a>Token management</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div className='hover:bg-purple-100 hover:text-black h-12 mb-1'>
-                                <img src={apply} alt="" srcset="" />
-                                <a>Apply for IDO</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div className='hover:bg-purple-100 hover:text-black h-12 mb-1'>
-                                <img src={nft} alt="" srcset="" />
-                                <a>NFT</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div className='hover:bg-purple-100 hover:text-black h-12'>
-                                <img src={document} alt="" srcset="" />
-                                <a>Documentation</a>
-                            </div>
-                        </li> */}
-
                     </div>
+
                     <div className='text-center mt-auto mb-5'>
                         <p className='mb-3 text-xs'>Connect with us</p>
                         <div className='flex gap-3 justify-center'>
@@ -93,7 +70,7 @@ const Home = () => {
                             <img src={footerImg} alt="" srcset="" />
                         </div>
                         <div>
-                            <p className='font-serif text-sm'>© Solminter 2021</p>
+                            <p className='font-serif text-sm'>© Solminter 2022</p>
                         </div>
                     </div>
                 </ul>
