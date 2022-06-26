@@ -48,12 +48,10 @@ const Home = () => {
                             </div>
                         </CustomLink ></li>
                         <li className='hover:bg-purple-100 rounded-lg'><CustomLink to='/document'>
-                            <a href="https://docs.solminter.com/">
                             <div className='flex justify-center items-center '>
                                 <img src={document} alt="" srcset="" />
                                 <p className='ml-2'>Documentation</p>
-                                </div>
-                            </a>
+                            </div>
                         </CustomLink ></li>
                     </div>
 
